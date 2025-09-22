@@ -1,10 +1,12 @@
 # mynetwork_scan.txt
+**
+Network Open Ports Scanning Task**
 
-Network Open Ports Scanning Task
-Task Objective
+**Task Objective
+**
 The purpose of this task was to scan my local network to discover open ports on connected devices. Open ports identify network services running on devices, which can reveal potential security exposures. This task helped me learn basic network reconnaissance skills and understand network security concepts.
-
-Steps Performed
+**
+Steps Performed**
 Installed Nmap: Downloaded and installed the free Nmap tool, which performs network port scanning.
 
 Determined Local IP Range: Found my network’s IP address range (e.g., 192.168.29.0/24) using system commands.
@@ -18,8 +20,8 @@ Researched Services: Matched detected open ports to common services (HTTP, HTTPS
 Identified Security Risks: Reviewed the open ports and services for potential vulnerabilities or unnecessary exposure.
 
 Saved Scan Results: Exported scan results to files for documentation and further analysis.
-
-Key Findings
+**
+Key Findings**
 Several devices in the local subnet responded to the scan.
 
 Common services like HTTP (port 80), HTTPS (port 443), and MySQL (3306) were running on multiple devices.
@@ -27,6 +29,6 @@ Common services like HTTP (port 80), HTTPS (port 443), and MySQL (3306) were run
 Some potentially risky ports were identified, such as UPnP (1900) and Microsoft SMB ports (139, 445).
 
 Recommendations were made to secure, update, or disable unnecessary services and close exposed ports where possible.
-
-Notes and Conclusion
+**
+Notes and Conclusion**
 This task was valuable to understand how network scanning works and the risks associated with open ports. Using tools like Nmap and Wireshark together provides both a high-level and packet-level view of network exposure. Regular scanning and monitoring are crucial to maintaining network security by identifying and mitigating potential vulnerabilities early.
