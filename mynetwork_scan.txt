@@ -1,0 +1,45 @@
+# Nmap 7.98 scan initiated Mon Sep 22 20:35:33 2025 as: nmap -sS -oN mynetwork_scan.txt 192.168.29.0/24
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.026s latency).
+Not shown: 990 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+53/tcp   open   domain
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: C4:E5:32:B6:47:75 (Arcadyan)
+
+Nmap scan report for 192.168.29.88
+Host is up (0.0069s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+MAC Address: B4:E2:65:3B:69:99 (Shenzhen Sdmc Technology)
+
+Nmap scan report for 192.168.29.154
+Host is up (0.013s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: C4:3A:35:23:0E:06 (FN-Link Technology Limited)
+
+Nmap scan report for 192.168.29.169
+Host is up (0.00038s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+
+# Nmap done at Mon Sep 22 20:35:44 2025 -- 256 IP addresses (4 hosts up) scanned in 11.33 seconds
